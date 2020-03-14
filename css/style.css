@@ -1,27 +1,31 @@
-.container {
+body {
+  width: 50%;
   background: #3399cc;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
 * {
+  box-sizing: border-box;
+  font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
   transition: all 0.1s ease-in;
 }
 
-.cities li {
-  display: inline-block;
-  font-size: 34px;
-  text-align: center;
-  outline: 3px solid white;
-  height: 25%;
+ul {
+  font-size: 0px;
+  margin: 80px auto;
+  background-color: white;
+  border: solid 2px white;
 }
 
-.cities {
-  width: 1200px;
-  height: 500px;
-  margin: 0 auto;
-  font-size: 0;
-  margin-top: 40px;
+li {
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  padding: 18px;
+  border: solid 2px white;
+  margin: 0px;
 }
 
 li:nth-child(1),
@@ -75,27 +79,21 @@ li:nth-child(10) {
 li:nth-child(11) {
   background: #666699;
 }
-p {
-  margin-top: 10px;
-}
+
 li p:last-child {
   opacity: 60%;
 }
 
-
-
-ul:hover>li {
-  opacity:0.4;
+ul:hover > li {
+  opacity: 0.4;
 }
-ul:hover>li:hover {
- 
-opacity:1;
-
+ul:hover > li:hover {
+  opacity: 1;
 }
 
-footer, header {
+footer,
+header {
   font-size: 22px;
   color: white;
   margin-top: 20px;
-   
 }

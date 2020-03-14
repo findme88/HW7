@@ -1,18 +1,19 @@
 body {
-  width: 50%;
+  font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+  width: 40%;
   background: #3399cc;
   margin: 0 auto;
+  color: white;
 }
 
 * {
   box-sizing: border-box;
-  font-family: Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
   transition: all 0.1s ease-in;
 }
 
 ul {
   font-size: 0px;
-  margin: 80px auto;
+  margin: 40px auto;
   background-color: white;
   border: solid 2px white;
 }
@@ -25,7 +26,8 @@ li {
   justify-content: center;
   padding: 18px;
   border: solid 2px white;
-  margin: 0px;
+  font-weight: 700;
+  
 }
 
 li:nth-child(1),
@@ -82,6 +84,7 @@ li:nth-child(11) {
 
 li p:last-child {
   opacity: 60%;
+  margin-top: 10px;
 }
 
 ul:hover > li {
@@ -91,9 +94,22 @@ ul:hover > li:hover {
   opacity: 1;
 }
 
-footer,
+
 header {
   font-size: 22px;
-  color: white;
-  margin-top: 20px;
+  margin-top: 40px;
+}
+
+footer {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+i{
+  font-size: 30px;
+}
+
+i:before {
+  content:"&degС"
+
 }
